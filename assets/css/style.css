@@ -107,6 +107,15 @@ a:hover {
     margin: 0 auto;
 }
 
+#main-image {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
+    background-size: cover;
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+}
+
+
 #main-title {
     font-size: 1.6em;
     color: var(--white);
