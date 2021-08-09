@@ -31,7 +31,7 @@ h1 {
     font-size: 3.5em;
     text-shadow: 
         0 0 7px var(--white),
-        0 0 10px var(--darkgray),
+        0 0 10px var(--white),
         0 0 21px var(--white),
         0 0 42px var(--darkblue),
         0 0 82px  var(--darkblue),
