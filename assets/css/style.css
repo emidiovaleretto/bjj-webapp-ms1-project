@@ -156,6 +156,17 @@ a:hover {
     border-bottom: 1px dotted var(--white);
 }
 
+.card-classes {
+    width: 100%;
+    margin: 1em;
+}
+
+.card-classes img {
+    width: 100%;
+    height: 200px;
+}
+
+
 .pricing {
     text-align: center;
     font-size: 1em;
