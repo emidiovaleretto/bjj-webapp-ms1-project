@@ -26,20 +26,6 @@ body {
     color: var(--darkblue);
 }
 
-h1 {
-    margin-left: 15px;
-    font-size: 3.5em;
-    text-shadow: 
-        0 0 7px var(--white),
-        0 0 10px var(--white),
-        0 0 21px var(--white),
-        0 0 42px var(--darkblue),
-        0 0 82px  var(--darkblue),
-        0 0 92px  var(--darkblue),
-        0 0 102px  var(--darkblue),
-        0 0 151px  var(--darkblue);
-}
-
 h2 {
     font-size: 2em;
 }
@@ -74,6 +60,21 @@ a:hover {
     min-height: 100vh;
     margin: 0 auto;
     padding: 10px;
+}
+
+#logo {
+    margin-left: 15px;
+    width: auto;
+    font-size: 3.5em;
+    text-shadow: 
+        0 0 7px var(--white),
+        0 0 10px var(--white),
+        0 0 21px var(--white),
+        0 0 42px var(--darkblue),
+        0 0 82px  var(--darkblue),
+        0 0 92px  var(--darkblue),
+        0 0 102px  var(--darkblue),
+        0 0 151px  var(--darkblue);   
 }
 
 #heading {
@@ -120,7 +121,7 @@ a:hover {
     background-size: cover;
     width: auto;
     height: auto;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 
@@ -298,6 +299,7 @@ a:hover {
     padding: 15px;
     font-size: 1.2em;
     font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 textarea {
