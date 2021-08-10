@@ -295,7 +295,7 @@ a:hover {
 #form {
     width: auto;
     max-width: 540px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 15px;
     font-size: 1.2em;
     font-weight: bold;
