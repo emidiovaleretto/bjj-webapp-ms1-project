@@ -20,12 +20,19 @@
 body {
     font-size: 1em;
     font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     background-color: rgba(0, 0, 0, 0.75);
     color: var(--darkblue);
 }
 
 h2 {
     font-size: 2em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
 }
 
 hr {
