@@ -398,3 +398,15 @@ input[type="text"], input[type="email"], #select-field, textarea {
 .back-to-top:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #gallery {
+        column-count: 2;
+    }
+}
