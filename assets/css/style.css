@@ -297,16 +297,19 @@ a:link, a:visited {
     column-gap: 0;
 }
 
-#gallery > img {
-    width: 100%;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .2s ease all;
+.gallery-container {
+    overflow: hidden;
 }
 
-#gallery > img:hover {
-    transform: scale(1.1);
+.gallery-container > img {
+    width: 100%;
+    transform: scale(1);
+    transition: .2s ease all;
     overflow: hidden;
+}
+
+.gallery-container > img:hover {
+    transform: scale(1.1);
 }
 
 #background-form {
