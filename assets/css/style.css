@@ -18,7 +18,7 @@
 }
 
 body {
-    font-size: 1em;
+    font-size: 16px;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.75);
@@ -26,7 +26,7 @@ body {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 180%;
 }
 
 p {
@@ -40,16 +40,8 @@ hr {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:link, a:visited {
     color: var(--white);
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .white-text {
@@ -67,12 +59,19 @@ a:hover {
     padding: 10px;
 }
 
+#link-home {
+    text-decoration: none;
+}
+
+#link-home:hover {
+    text-decoration: none;
+}
+
 #logo {
     margin-left: 15px;
-    width: auto;
-    font-size: 3.5em;
+    font-size: 360%;
     text-shadow: 
-        0 0 7px var(--white),
+        0 0 7px var(--darkblue),
         0 0 10px var(--white),
         0 0 21px var(--white),
         0 0 42px var(--darkblue),
@@ -90,6 +89,10 @@ a:hover {
     color: var(--white);
 }
 
+#logo .darkblue {
+    color: var(--darkblue);
+}
+
 #logo .red {
     color: var(--red);
 }
@@ -98,13 +101,14 @@ a:hover {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin: 0.5em;
+    margin: 5px;
     list-style-type: none;
 }
 
 #nav a {
-    font-size: 1em;
-    padding: 0.8em;
+    font-size: 100%;
+    letter-spacing: 1px;
+    padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -116,7 +120,6 @@ a:hover {
 }
 
 .dotted-line {
-    padding-top: 2px;
     border-bottom: 1px dotted var(--white);
     width: 80%;
     margin: 0 auto;
@@ -125,21 +128,21 @@ a:hover {
 #main-image {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
     background-size: cover;
-    width: auto;
+    width: 100%;
     height: auto;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 
 #main-title {
-    font-size: 1.6em;
+    font-size: 180%;
     color: var(--white);
     text-transform: uppercase;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 #main-title h3 {
-    font-size: 1em;
+    font-size: 90%;
     font-weight: normal;
     width: 60%;
 }
@@ -148,13 +151,12 @@ a:hover {
     background-color: var(--darkblue);
     color: var(--white);
     font-family: 'Oswald', sans-serif;
-    font-size: 0.8em;
+    font-size: 90%;
     font-weight: bold;
     padding: 15px 40px;
     border-radius: 5px;
     border: none;
-    margin-right: 15px;
-    margin-top: 16px;
+    margin: 16px 15px 0 0;
     cursor: pointer;
 }
 
@@ -166,13 +168,12 @@ a:hover {
     background-color: var(--darkred);
     color: var(--white);
     font-family: 'Oswald', sans-serif;
-    font-size: 0.8em;
+    font-size: 90%;
     font-weight: bold;
     padding: 15px 40px;
     border-radius: 5px;
     border: none;
-    margin-right: 15px;
-    margin-top: 16px;
+    margin: 16px 15px 0 0;
     cursor: pointer;
 }
 
@@ -216,7 +217,7 @@ a:hover {
 
 .card-classes {
     width: 100%;
-    margin: 1em;
+    margin: 20px auto;
 }
 
 .card-classes img {
@@ -230,7 +231,7 @@ a:hover {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     text-align: center;
-    font-size: 1.2em;
+    font-size: 110%;
 }
 
 .caption::before {
@@ -281,7 +282,7 @@ a:hover {
 
 .pricing {
     text-align: center;
-    font-size: 1em;
+    font-size: 180%;
     background: var(--white);
     height: 400px;
     border-radius: 10px;
@@ -367,6 +368,10 @@ input[type="text"], input[type="email"], #select-field, textarea {
     background-color: var(--darkblue);
 }
 
-#arrow {
-    font-size: 1.2em;
+.back-to-top {
+    font-size: 100%;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
 }
