@@ -289,6 +289,26 @@ a:link, a:visited {
     margin-top: 30px;
 }
 
+#gallery {
+    clear: both;
+    height: 100%;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .2s ease all;
+}
+
+#gallery > img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
 #background-form {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
     background-attachment: fixed;
