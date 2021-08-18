@@ -333,26 +333,12 @@ a:link, a:visited {
     color: var(--red);
 }
 
-.pricing h3:nth-child(1) {
+.pricing h3 {
     padding: 20px 0;
     font-size: 180%;
     background-color: var(--darkblue);
     color: var(--white);
 }
-
-/* .pricing h3:nth-child(2) {
-    padding: 20px 0;
-    font-size: 200%;
-    background-color: var(--red);
-    color: var(--white);
-}
-
-.pricing h3:nth-child(3) {
-    padding: 20px 0;
-    font-size: 180%;
-    background-color: var(--darkgray);
-    color: var(--white);
-} */
 
 .pricing-content li {
     list-style-type: none;
