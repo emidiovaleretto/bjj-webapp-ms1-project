@@ -299,11 +299,62 @@ a:link, a:visited {
 .pricing {
     text-align: center;
     font-size: 180%;
-    background: var(--darkgray);
-    height: 400px;
+    background: rgba(0, 0, 0, .1);
+    height: auto;
+    max-height: 100%;
     border-radius: 10px;
     margin-top: 30px;
 }
+
+.pricing-content {
+    color: var(--black);
+    letter-spacing: 2px;
+}
+
+.pricing-content h3:nth-child(1) {
+    padding: 20px 0;
+    font-size: 180%;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.pricing-content h3:nth-child(2) {
+    padding: 20px 0;
+    font-size: 200%;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.pricing-content h3:nth-child(3) {
+    padding: 20px 0;
+    font-size: 180%;
+    background-color: var(--darkgray);
+    color: var(--white);
+}
+
+.pricing-content li {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.pricing-content input[type="submit"] {
+    background-color: var(--darkred);
+    color: var(--white);
+    font-family: 'Oswald', sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px auto;
+    width: auto;
+    cursor: pointer;
+}
+
+.col:nth-child(odd) {
+    top: 50px;
+}
+
 
 #gallery {
     clear: both;
@@ -356,7 +407,7 @@ input[type="submit"] {
     background-color: var(--darkred);
     color: var(--white);
     font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-size: 110%;
     font-weight: bold;
     padding: 15px 40px;
     border-radius: 5px;
