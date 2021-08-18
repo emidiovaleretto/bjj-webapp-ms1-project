@@ -308,6 +308,13 @@ a:link, a:visited {
     max-height: 100%;
     border-radius: 10px;
     margin-top: 30px;
+    transform: scale(1);
+    transition: .2s ease all;
+    overflow: hidden;
+}
+
+.pricing:hover {
+    transform: scale(1.05);
 }
 
 .pricing-content {
