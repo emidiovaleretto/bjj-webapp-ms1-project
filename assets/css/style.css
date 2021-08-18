@@ -298,7 +298,7 @@ a:link, a:visited {
 
 .pricing {
     text-align: center;
-    font-size: 180%;
+    font-size: 160%;
     background: rgba(0, 0, 0, .1);
     height: auto;
     max-height: 100%;
@@ -308,36 +308,51 @@ a:link, a:visited {
 
 .pricing-content {
     color: var(--black);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
-.pricing-content h3:nth-child(1) {
+.pricing-content span {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px dotted var(--darkblue);
+
+}
+
+.pricing-content span i {
+    color: var(--red);
+}
+
+.pricing h3:nth-child(1) {
     padding: 20px 0;
     font-size: 180%;
     background-color: var(--darkblue);
     color: var(--white);
 }
 
-.pricing-content h3:nth-child(2) {
+/* .pricing h3:nth-child(2) {
     padding: 20px 0;
     font-size: 200%;
     background-color: var(--red);
     color: var(--white);
 }
 
-.pricing-content h3:nth-child(3) {
+.pricing h3:nth-child(3) {
     padding: 20px 0;
     font-size: 180%;
     background-color: var(--darkgray);
     color: var(--white);
-}
+} */
 
 .pricing-content li {
     list-style-type: none;
+    line-height: 40px;
     margin: 20px 0;
+    padding: 0 20px;
+    font-size: 70%;
+
 }
 
-.pricing-content input[type="submit"] {
+.pricing input[type="submit"] {
     background-color: var(--darkred);
     color: var(--white);
     font-family: 'Oswald', sans-serif;
@@ -350,11 +365,6 @@ a:link, a:visited {
     width: auto;
     cursor: pointer;
 }
-
-.col:nth-child(odd) {
-    top: 50px;
-}
-
 
 #gallery {
     clear: both;
