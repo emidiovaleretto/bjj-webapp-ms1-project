@@ -207,6 +207,22 @@ a:link, a:visited {
     padding: 15px 0;
 }
 
+.center-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px solid var(--darkgray);
+    margin: 30px auto;
+}
+
+.center-image {
+    background: url("../img/coach.jpg") no-repeat center top;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
 .white-section hr {
     border-bottom: 1px dotted var(--darkblue);
 }
@@ -411,6 +427,6 @@ input[type="text"], input[type="email"], #select-field, textarea {
 
 @media screen and (max-width: 425px) {
     #gallery {
-        column-count: 2;
+        column-count: 1;
     }
 }
