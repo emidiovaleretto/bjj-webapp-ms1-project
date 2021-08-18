@@ -207,6 +207,10 @@ a:link, a:visited {
     padding: 15px 0;
 }
 
+#last-paragraph {
+    margin-bottom: 30px;
+}
+
 .center-container {
     width: 350px;
     height: 350px;
