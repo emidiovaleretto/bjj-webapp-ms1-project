@@ -328,6 +328,7 @@ a:link, a:visited {
     transform: scale(1);
     transition: .2s ease all;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .pricing:hover {
@@ -397,6 +398,7 @@ a:link, a:visited {
     transform: scale(1);
     transition: .2s ease all;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .gallery-container > img:hover {
