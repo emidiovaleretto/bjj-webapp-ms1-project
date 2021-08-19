@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
-
 :root {
     --black: #000;
     --red: #f00;
@@ -13,7 +12,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     scroll-behavior: smooth;
 }
 
@@ -33,7 +31,6 @@ h2 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-
 }
 
 hr {
@@ -60,39 +57,27 @@ a:link, a:visited {
     padding: 10px;
 }
 
-#link-home {
-    text-decoration: none;
-}
-
-#link-home:hover {
-    text-decoration: none;
-}
-
 #logo {
     margin-left: 15px;
     font-size: 360%;
-    text-shadow: 
-        0 0 7px var(--darkblue),
-        0 0 10px var(--white),
-        0 0 21px var(--white),
-        0 0 42px var(--darkblue),
-        0 0 82px  var(--darkblue),
-        0 0 92px  var(--darkblue),
-        0 0 102px  var(--darkblue),
-        0 0 151px  var(--darkblue);   
-}
-
-#heading {
-    text-align: center;
+    text-shadow: 0 0 7px var(--darkblue), 
+                 0 0 10px var(--white), 
+                 0 0 21px var(--white), 
+                 0 0 42px var(--darkblue), 
+                 0 0 82px var(--darkblue), 
+                 0 0 92px var(--darkblue), 
+                 0 0 102px var(--darkblue), 
+                 0 0 151px var(--darkblue);
 }
 
 #logo {
     font-weight: bold;
+    margin: 0;
+    padding: 10px;
 }
 
 #logo span {
     color: var(--white);
-
 }
 
 #logo .darkblue {
@@ -103,15 +88,30 @@ a:link, a:visited {
     color: var(--red);
 }
 
-#nav ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    margin: 5px;
-    list-style-type: none;
+#menu > li {
+    padding: 10px;
 }
 
-#nav a {
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .8s;
+}
+
+#nav {
+    padding: 0 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav, #menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu a {
     font-size: 100%;
     letter-spacing: 1px;
     padding: 10px;
@@ -119,10 +119,34 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-#nav a:hover {
+#menu a:hover {
     background-color: var(--white);
     color: var(--darkblue);
     text-decoration: underline;
+}
+
+#link-home {
+    text-decoration: none;
+}
+
+#link-home:hover {
+    text-decoration: none;
+}
+
+#responsive-menu-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    font-size: 36px;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    display: none;
+}
+
+#responsive-menu-btn:focus~ul {
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
 .dotted-line {
@@ -138,7 +162,6 @@ a:link, a:visited {
     height: auto;
     min-height: 100vh;
 }
-
 
 #main-title {
     font-size: 180%;
@@ -193,6 +216,7 @@ a:link, a:visited {
     height: auto;
     min-height: 100vh;
 }
+
 .white-section {
     background-color: var(--white);
     width: 100%;
@@ -344,7 +368,6 @@ a:link, a:visited {
     text-transform: uppercase;
     font-weight: bold;
     border-bottom: 1px dotted var(--darkblue);
-
 }
 
 .pricing-content span i {
@@ -358,13 +381,12 @@ a:link, a:visited {
     color: var(--white);
 }
 
-.pricing-content li {
+.pricing-content ul {
     list-style-type: none;
     line-height: 40px;
     margin: 20px 0;
     padding: 0 20px;
     font-size: 70%;
-
 }
 
 .pricing input[type="submit"] {
@@ -397,7 +419,7 @@ a:link, a:visited {
     overflow: hidden;
 }
 
-.gallery-image > img {
+.gallery-image>img {
     width: 100%;
     transform: scale(1);
     transition: .2s ease all;
@@ -405,7 +427,7 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-.gallery-image > img:hover {
+.gallery-image>img:hover {
     transform: scale(1.1);
 }
 
@@ -429,10 +451,6 @@ a:link, a:visited {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-textarea {
-    resize: none;
-}
-
 input[type="submit"] {
     background-color: var(--darkred);
     color: var(--white);
@@ -452,7 +470,7 @@ input[type="submit"]:hover {
     background-color: #610303;
 }
 
-input[type="text"], input[type="email"], #select-field, textarea {
+input[type="text"], input[type="email"], #select-field {
     box-sizing: border-box;
     width: 100%;
     padding: 10px 15px;
@@ -463,6 +481,10 @@ input[type="text"], input[type="email"], #select-field, textarea {
     font-size: 1em;
     font-weight: bold;
     color: var(--darkblue);
+}
+
+input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
+    border: 1px solid var(--red);
 }
 
 #radio {
@@ -501,6 +523,40 @@ input[type="text"], input[type="email"], #select-field, textarea {
 }
 
 @media screen and (max-width: 768px) {
+
+    #nav,
+    #menu {
+        flex-direction: column;
+    }
+
+    #menu {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    #nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    #logo {
+        margin: 0 0 0 20px;
+    }
+
+    #responsive-menu-btn {
+        display: flex;
+    }
+
+    #menu,
+    li {
+        width: 100%;
+    }
+
+    #menu > li {
+        padding: 10px;
+    }
+
     #gallery {
         column-count: 2;
     }
