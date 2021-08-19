@@ -169,17 +169,27 @@ a:link, a:visited {
     width: 60%;
 }
 
+.button {
+    display: inline-flex;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+}
+
 .button-1 {
     background-color: var(--darkblue);
-    color: var(--white);
-    font-family: 'Oswald', sans-serif;
-    font-size: 90%;
-    font-weight: bold;
-    padding: 15px 40px;
+    padding: 15px 20px;
     border-radius: 5px;
-    border: none;
-    margin: 16px 15px 0 0;
-    cursor: pointer;
+    margin: 15px 15px 0 0;
+}
+
+.button-1 > a:hover {
+    text-decoration: none;
 }
 
 .button-1:hover {
@@ -188,15 +198,13 @@ a:link, a:visited {
 
 .button-2 {
     background-color: var(--darkred);
-    color: var(--white);
-    font-family: 'Oswald', sans-serif;
-    font-size: 90%;
-    font-weight: bold;
-    padding: 15px 40px;
+    padding: 15px 20px;
     border-radius: 5px;
-    border: none;
-    margin: 16px 15px 0 0;
-    cursor: pointer;
+    margin: 15px 15px 0 0;
+}
+
+.button-2 > a:hover {
+    text-decoration: none;
 }
 
 .button-2:hover {
@@ -548,6 +556,9 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
     #menu>li {
         padding: 10px;
+    }
+    .button {
+        flex-direction: column;
     }
     #gallery {
         column-count: 2;
