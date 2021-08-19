@@ -60,14 +60,7 @@ a:link, a:visited {
 #logo {
     margin-left: 15px;
     font-size: 360%;
-    text-shadow: 0 0 7px var(--darkblue), 
-                 0 0 10px var(--white), 
-                 0 0 21px var(--white), 
-                 0 0 42px var(--darkblue), 
-                 0 0 82px var(--darkblue), 
-                 0 0 92px var(--darkblue), 
-                 0 0 102px var(--darkblue), 
-                 0 0 151px var(--darkblue);
+    text-shadow: 0 0 7px var(--darkblue), 0 0 10px var(--white), 0 0 21px var(--white), 0 0 42px var(--darkblue), 0 0 82px var(--darkblue), 0 0 92px var(--darkblue), 0 0 102px var(--darkblue), 0 0 151px var(--darkblue);
 }
 
 #logo {
@@ -88,8 +81,8 @@ a:link, a:visited {
     color: var(--red);
 }
 
-#menu > li {
-    padding: 10px;
+#menu>li {
+    padding: 5px;
 }
 
 #menu {
@@ -523,40 +516,30 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-    #nav,
-    #menu {
+    #nav, #menu {
         flex-direction: column;
     }
-
     #menu {
         text-align: center;
         margin: 0;
         height: 0;
     }
-
     #nav {
         padding: 0;
         align-items: flex-start;
     }
-
     #logo {
         margin: 0 0 0 20px;
     }
-
     #responsive-menu-btn {
         display: flex;
     }
-
-    #menu,
-    li {
+    #menu, li {
         width: 100%;
     }
-
-    #menu > li {
+    #menu>li {
         padding: 10px;
     }
-
     #gallery {
         column-count: 2;
     }
