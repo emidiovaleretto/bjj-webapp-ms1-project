@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 :root {
     --black: #000;
@@ -90,18 +97,28 @@ a:link, a:visited {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    -webkit-transition: all .8s;
+    -o-transition: all .8s;
     transition: all .8s;
 }
 
 #nav {
     padding: 0 10px;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #nav, #menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 }
 
 #menu a {
@@ -149,6 +166,8 @@ a:link, a:visited {
 }
 
 #main-image {
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.98)), to(rgba(0, 0, 0, 0))), url('../img/brazilian-jiu-jitsu.jpg');
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
     background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
     background-size: cover;
     width: 100%;
@@ -170,8 +189,13 @@ a:link, a:visited {
 }
 
 .button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 90%;
@@ -303,6 +327,8 @@ a:link, a:visited {
     bottom: 0;
     left: 0;
     background: transparent;
+    -webkit-transition: background .35s ease-out;
+    -o-transition: background .35s ease-out;
     transition: background .35s ease-out;
 }
 
@@ -326,38 +352,50 @@ a:link, a:visited {
     padding: 10px;
     color: var(--white);
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+    -ms-transform: translateY(100%);
+        transform: translateY(100%);
     transition: -webkit-transform .25s ease-out;
+    -webkit-transition: -webkit-transform .25s ease-out;
+    -o-transition: transform .25s ease-out;
     transition: transform .25s ease-out;
+    transition: transform .25s ease-out, -webkit-transform .25s ease-out;
 }
 
 .caption:hover .caption__overlay {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -ms-transform: translateY(0);
+        transform: translateY(0);
 }
 
 .caption:hover .caption__overlay__title {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -ms-transform: translateY(0);
+        transform: translateY(0);
 }
 
 .pricing {
     text-align: center;
-    font-size: 160%;
+    font-size: 140%;
     background: var(--white);
     height: auto;
     max-height: 100%;
     border: none;
     border-radius: 10px;
     margin-top: 30px;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: .2s ease all;
+    -o-transition: .2s ease all;
     transition: .2s ease all;
     overflow: hidden;
     cursor: pointer;
 }
 
 .pricing:hover {
-    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 .pricing-content {
@@ -377,7 +415,7 @@ a:link, a:visited {
 
 .pricing h3 {
     padding: 20px 0;
-    font-size: 180%;
+    font-size: 160%;
     background-color: var(--darkblue);
     color: var(--white);
 }
@@ -408,8 +446,12 @@ a:link, a:visited {
     clear: both;
     height: 100%;
     line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+    -webkit-column-count: 4;
+       -moz-column-count: 4;
+            column-count: 4;
+    -webkit-column-gap: 0;
+       -moz-column-gap: 0;
+            column-gap: 0;
 }
 
 #gallery h2 {
@@ -422,17 +464,25 @@ a:link, a:visited {
 
 .gallery-image>img {
     width: 100%;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: .2s ease all;
+    -o-transition: .2s ease all;
     transition: .2s ease all;
     overflow: hidden;
     cursor: pointer;
 }
 
 .gallery-image>img:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 #background-form {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.6))), url('../img/cover.jpg');
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -472,7 +522,8 @@ input[type="submit"]:hover {
 }
 
 input[type="text"], input[type="email"], #select-field {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     width: 100%;
     padding: 10px 15px;
     margin-top: 10px;
@@ -524,9 +575,16 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
 }
 
 #video {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 60%;
     height: 400px;
     margin: 10px auto;
@@ -534,7 +592,10 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
 
 @media screen and (max-width: 768px) {
     #nav, #menu {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     #menu {
         text-align: center;
@@ -543,12 +604,16 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
     #nav {
         padding: 0;
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     #logo {
         margin: 0 0 0 20px;
     }
     #responsive-menu-btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     #menu, li {
@@ -558,15 +623,22 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
         padding: 10px;
     }
     .button {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     #gallery {
-        column-count: 2;
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
     }
 }
 
 @media screen and (max-width: 425px) {
     #gallery {
-        column-count: 1;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
     }
 }
