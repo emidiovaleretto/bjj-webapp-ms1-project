@@ -13,7 +13,7 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
     
     - This section will allow the user to easily navigate through the landing page across all devices. Upon clicking, the user is directed to the corresponding section via a scroll-down.
 
-![Nav Bar](assets\readme-images\navigation-bar.png)
+![Nav Bar](.\assets\readme-images\navigation-bar.png)
 
 
 
@@ -21,7 +21,7 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
   - The main section includes a photography of two jiu-jitsu practitioners with a text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Brazilian Jiu Jitsu with an emblematic image of the practitioners to draw their attention, in addition to two buttons with very expressive colours that will arouse curiosity to explore the page even further.
 
-![Main Section](assets\readme-images\main-section.png)
+![Main Section](.\assets\readme-images\main-section.png)
 
 
 
@@ -29,20 +29,20 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
   - The Our Mission section will allow the user to know about the establishment's mission, including what are the fundamental principles of good practice in jiu-jitu, in addition to rules of conduct as well as the benefits of joining the Brazilian Jiu-Jitsu overall.
   - Right below, the user can briefly know the history of Derek, responsible for the Brazilian jiu-jitsu academy in Dublin, Ireland. 
 
-![Our Mission](assets\readme-images\our-mission.png)
+![Our Mission](.\assets\readme-images\our-mission.png)
 
-![The Coach](assets\readme-images\coach.png)
+![The Coach](.\assets\readme-images\coach.png)
 
 
 
 - __Our Classes__
   - The section Our Classes will allow the user to see exactly which classes he/she will have available, being able to choose according to their level in relation to the practice of jiu-jitsu, covering from the most beginner to the most advanced level.
 
-![Our Classes](assets\readme-images\our-classes.png)
+![Our Classes](.\assets\readme-images\our-classes.png)
 
   - This section also includes a text overlay to let the user know which image matches which lesson modality in particular.
 
-![Our Classes](assets\readme-images\overlay.png)
+![Our Classes](.\assets\readme-images\overlay.png)
 
 
 
