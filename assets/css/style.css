@@ -325,13 +325,6 @@ a:link, a:visited {
     background: rgba(0, 0, 0, .8);
 }
 
-.caption__media {
-    display: block;
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
 .caption__overlay {
     position: absolute;
     top: 30%;
@@ -643,7 +636,7 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     #gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
