@@ -132,22 +132,6 @@ a:link, a:visited {
     display: none;
 }
 
-/* #responsive-menu-btn {
-    background-color: transparent;
-    border: none;
-    color: var(--darkblue);
-    font-size: 36px;
-    position: absolute;
-    right: 15px;
-    top: 40px;
-    display: none;
-}
-
-#responsive-menu-btn:focus~ul {
-    height: 220px;
-    background-color: rgba(255, 255, 255, 0.4)
-} */
-
 .dotted-line {
     border-bottom: 1px dotted var(--white);
     width: 80%;
@@ -261,7 +245,7 @@ a:link, a:visited {
     margin-bottom: 30px;
 }
 
-.center-container {
+.circle-container {
     width: 360px;
     height: 360px;
     border-radius: 50%;
