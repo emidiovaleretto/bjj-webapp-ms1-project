@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
 :root {
     --black: #000;
@@ -67,11 +60,15 @@ a:link, a:visited {
 #logo img {
     width: 100%;
     height: 110px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 #logo img:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 #menu>li {
@@ -131,7 +128,11 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-#responsive-menu-btn {
+.responsive-menu-btn {
+    display: none;
+}
+
+/* #responsive-menu-btn {
     background-color: transparent;
     border: none;
     color: var(--darkblue);
@@ -145,7 +146,7 @@ a:link, a:visited {
 #responsive-menu-btn:focus~ul {
     height: 220px;
     background-color: rgba(255, 255, 255, 0.4)
-}
+} */
 
 .dotted-line {
     border-bottom: 1px dotted var(--white);
@@ -154,8 +155,8 @@ a:link, a:visited {
 }
 
 #main-image {
-    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.98)), to(rgba(0, 0, 0, 0))), url('../img/brazilian-jiu-jitsu.jpg');
     background: -o-linear-gradient(left, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.98)), to(rgba(0, 0, 0, 0))), url('../img/brazilian-jiu-jitsu.jpg');
     background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
     background-size: cover;
     width: 100%;
@@ -469,8 +470,8 @@ a:link, a:visited {
 }
 
 #background-form {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.6))), url('../img/cover.jpg');
     background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.6))), url('../img/cover.jpg');
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -576,9 +577,10 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     width: 60%;
     height: 400px;
     margin: 10px auto;
+    border: none;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     #nav, #menu {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -599,10 +601,28 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     #logo {
         margin: 0 0 0 20px;
     }
-    #responsive-menu-btn {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+    .responsive-menu-label::after {
+        content: '☰';
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        position: absolute;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    .responsive-menu-btn:checked~#menu {
+        height: 220px;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .responsive-menu-btn:checked~.responsive-menu-label::after {
+        content: '×';
+        font-size: 5rem;
     }
     #menu, li {
         width: 100%;
@@ -623,7 +643,7 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (min-width: 425px) {
     #gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
