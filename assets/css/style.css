@@ -21,6 +21,7 @@ body {
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.75);
     color: var(--darkblue);
+    overflow-x: hidden;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-p {
+p, table {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -446,6 +447,13 @@ a:link, a:visited {
     transform: scale(1.1);
 }
 
+iframe {
+    display: block;
+    width: 100%;
+    height: 360px;
+    border: none;
+}
+
 #background-form {
     background: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('../img/cover.jpg');
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.6))), url('../img/cover.jpg');
@@ -524,6 +532,8 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     text-align: center;
     color: var(--white);
     font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 70px;
     padding: 20px;
     background-color: var(--darkblue);
 }
