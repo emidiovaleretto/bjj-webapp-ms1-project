@@ -1,5 +1,6 @@
 # BJJ - Brazilian Jiu-Jitsu GYM
 
+![Mockup](./assets/readme-images/bjj-mockup.png)
 
 BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about the Gentle Art - as it is known the practice of Jiu-Jistu - besides introduce this modality to new aspirates who want to know more about the pillars of Brazilian Jiu-Jitsu.  Based in Dublin, Ireland, we offer a friendly and cosy environment, to receive from beginners to more advanced practitioners. The site is targeted toward practisers and athletes who are looking for a way to socialise and keep themselves fit. BJJ will be useful for all people to find out exactly why they should choose practicing jiu-jistu.
 
@@ -111,7 +112,7 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
       - In the GitHub repository, navigate to the Settings tab
       - From the source section drop-down menu, select the Master Branch
       - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-      - The live link can be found clicking <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank">https://emidiovaleretto.github.io/bjj-webapp-ms1-project/</a>.
+      - The live link can be found here - <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank">https://emidiovaleretto.github.io/bjj-webapp-ms1-project/</a>.
 
 # Credits
 
