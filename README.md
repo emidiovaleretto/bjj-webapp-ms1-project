@@ -88,6 +88,19 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
       - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
       - The live link can be found here - <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank" rel="noopener">https://emidiovaleretto.github.io/bjj-webapp-ms1-project/</a>.
 
+# Performance and accessibility testing
+
+## What is considered as accessibility?
+
+ - Accessibility is <strong>the practice of making your websites usable by as many people as possible</strong>.
+ - We traditionally think of this as being about people with disabilities, but the practice of making sites      accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+  
+      - <em>Source: </em><a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility"><b>MDN Web Docs</b></a>
+  
+- Accessibility and web performance are not features, they are the <strong>baseline</strong>!
+
+![Performance](./assets/readme-images/performance.png)
+
 # Credits
 
 All images used in the construction of this project were extracted from sites with a license for use and their respective authors are mentioned below.
