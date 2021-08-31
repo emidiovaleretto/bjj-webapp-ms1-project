@@ -68,8 +68,8 @@ a:link, a:visited {
 
 #logo img:hover {
     -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #menu>li {
@@ -565,6 +565,30 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     height: 400px;
     margin: 10px auto;
     border: none;
+}
+
+.success-icon{
+    font-size: 12em;
+    color: #00ff00;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row~h2 {
+    font-size: 3em;
+}
+.row p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.row:last-child p {
+    text-align: center;
+    font-weight: 200;
+}
+
+.fas~span {
+    letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {
