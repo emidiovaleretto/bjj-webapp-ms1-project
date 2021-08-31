@@ -62,6 +62,11 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
 
 ![Form](./assets/readme-images/form.png)
 
+- __Thank you page__
+  - Right after submitting the form, the user will be able to see a thank you page and a message that we will contact you shortly.
+
+![Thank you](./assets/readme-images/thank-you.png)
+
 - __Footer__
   - The footer section includes a link to the Github page for this project. The link will open to a new tab to allow easy navigation for the user.
   - Also, the footer section includes a button "back to top" to facilitate the user to go back to the top of the page without needing to scroll back all the way up.
