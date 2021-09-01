@@ -563,7 +563,8 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     align-items: center;
     width: 60%;
     height: 400px;
-    margin: 10px auto;
+    margin: 0 auto;
+    margin-top: 50px;
     border: none;
 }
 
