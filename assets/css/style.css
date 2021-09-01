@@ -574,15 +574,15 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     text-align: center;
 }
 
-.row~h2 {
+.row~h2.thank-you {
     font-size: 3em;
 }
-.row p {
+.row p.thank-you {
     text-align: center;
     font-weight: 600;
 }
 
-.row:last-child p {
+.row:last-child p.thank-you {
     text-align: center;
     font-weight: 200;
 }
