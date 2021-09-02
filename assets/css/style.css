@@ -156,7 +156,6 @@ a:link, a:visited {
     width: 100%;
     height: auto;
     min-height: 100px;
-    
 }
 
 #main-title {
@@ -671,6 +670,10 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
 }
 
 @media (max-width: 425px) {
+    .circle-container {
+        width: 260px;
+        height: 260px;
+    }
     #gallery {
         -webkit-column-count: 1;
         -moz-column-count: 1;
