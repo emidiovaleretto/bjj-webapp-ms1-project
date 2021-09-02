@@ -1,8 +1,25 @@
 # BJJ - Brazilian Jiu-Jitsu GYM
 
+BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about the Gentle Art - as it is known the practice of Jiu-Jistu - besides introduce this modality to new aspirates who want to know more about the pillars of Brazilian Jiu-Jitsu.  Based in Dublin, Ireland, we offer a friendly and cosy environment, to receive from beginners to more advanced practitioners. The site is targeted toward practisers and athletes who are looking for a way to socialise and keep themselves fit. BJJ will be useful for all people to find out exactly why they should choose practicing jiu-jistu.
+
+The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank" rel="noopener">here</a>.
+
+
 ![Mockup](./assets/readme-images/bjj-mockup.png)
 
-BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about the Gentle Art - as it is known the practice of Jiu-Jistu - besides introduce this modality to new aspirates who want to know more about the pillars of Brazilian Jiu-Jitsu.  Based in Dublin, Ireland, we offer a friendly and cosy environment, to receive from beginners to more advanced practitioners. The site is targeted toward practisers and athletes who are looking for a way to socialise and keep themselves fit. BJJ will be useful for all people to find out exactly why they should choose practicing jiu-jistu.
+
+## Table of contents
+- [BJJ - Brazilian Jiu-Jitsu GYM](#bjj---brazilian-jiu-jitsu-gym)
+  - [Table of contents](#table-of-contents)
+- [Features](#features)
+- [Colours](#colours)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Performance and accessibility testing](#performance-and-accessibility-testing)
+  - [What is considered as accessibility?](#what-is-considered-as-accessibility)
+- [Credits](#credits)
+  - [Gallery](#gallery)
+- [Acknowledgements](#acknowledgements)
 
 # Features
 
@@ -73,6 +90,14 @@ BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about t
 
 ![Form](./assets/readme-images/footer.png)
 
+# Colours
+
+The site's color palette was thought in the colors used in jiu-jitsu, with white, blue, red and black as primary colors. In addition, other shades of blue and red were chosen to provide a contrast.
+
+![#ffffff](https://via.placeholder.com/25/ffffff/000000?text=+) `--white` ![#ff0000](https://via.placeholder.com/25/ff0000/000000?text=+) `--red` ![#8b0000](https://via.placeholder.com/25/8b0000/000000?text=+) `--darkred` ![#610303](https://via.placeholder.com/25/610303/000000?text=+) `--maroon`  ![#565656](https://via.placeholder.com/25/565656/000000?text=+) `--darkgray` ![#0E34A0](https://via.placeholder.com/25/0E34A0/000000?text=+) `--blue` ![#1a1f2d](https://via.placeholder.com/25/1a1f2d/000000?text=+) `--darkblue` ![#000000](https://via.placeholder.com/25/000000/000000?text=+) `--black`
+
+![Colours](./assets/readme-images/color-palette.png)
+
 # Testing
 
  - HTML
@@ -127,4 +152,12 @@ Photo by <a href="https://unsplash.com/@timothyeberly?utm_source=unsplash&utm_me
 Photo by cottonbro on Pexels<br>
 Image by <a href="https://pixabay.com/users/mikepesh-3053031/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1575854" target="_blank" rel="noopener">mikepesh</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1575854" target="_blank" rel="noopener">Pixabay</a><br>
 Photo by <a href="https://unsplash.com/@crotalus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Samuel Castro</a> on <a href="https://unsplash.com/s/photos/jiu-jitsu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener">Unsplash</a><br>
-<a href="https://www.jiujitsutimes.com/bjj-for-women/" target="_blank" rel="noopener">Jiu Jitsu Times<a>
+<a href="https://www.jiujitsutimes.com/bjj-for-women/" target="_blank" rel="noopener">Jiu Jitsu Times</a><br>
+
+# Acknowledgements
+
+I would like to take the opportunity to thank:
+
+ - My family, friends and colleagues for their advice, support and help with testing.
+ - To my mentor Felipe Alarcon for his feedback, advice, support and, above all, for his patience.
+ - All Code Institute Tutors and Community on Slack for the peer reviews and advice.
