@@ -133,12 +133,6 @@ a:link, a:visited {
     display: none;
 }
 
-.dotted-line {
-    border-bottom: 1px dotted var(--white);
-    width: 80%;
-    margin: 0 auto;
-}
-
 #main-image {
     background: -o-linear-gradient(left, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/brazilian-jiu-jitsu.jpg');
     background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(0, 0, 0, 0.98)), to(rgba(0, 0, 0, 0))), url('../img/brazilian-jiu-jitsu.jpg');
@@ -269,10 +263,6 @@ a:link, a:visited {
 }
 
 .darkblue-section hr {
-    border-bottom: 1px dotted var(--white);
-}
-
-.darkgray-section hr {
     border-bottom: 1px dotted var(--white);
 }
 
