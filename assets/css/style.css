@@ -552,6 +552,10 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     text-decoration: underline;
 }
 
+#beginners-guide {
+    min-height: 100vh;
+}
+
 #video {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -566,7 +570,7 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     width: 60%;
     height: 400px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 20px;
     border: none;
 }
 
