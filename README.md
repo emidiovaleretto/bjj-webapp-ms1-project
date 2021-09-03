@@ -8,9 +8,9 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 ![Mockup](./assets/readme-images/bjj-mockup.png)
 
 
-## Table of contents
+## Table of Contents
 - [BJJ - Brazilian Jiu-Jitsu GYM](#bjj---brazilian-jiu-jitsu-gym)
-  - [Table of contents](#table-of-contents)
+  - [Table of Contents](#table-of-contents)
 - [Features](#features)
   - [Logo](#logo)
   - [Navigation Bar](#navigation-bar)
@@ -24,6 +24,7 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
   - [Form](#form)
   - [Thank you page](#thank-you-page)
   - [Footer](#footer)
+  - [Beginners Guide Page](#beginners-guide-page)
 - [Tecnologies Used](#tecnologies-used)
   - [Languages Used](#languages-used)
   - [Frameworks, Liberies and other softwares used](#frameworks-liberies-and-other-softwares-used)
@@ -112,6 +113,11 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
   - Also, the footer section includes a button "back to top" to facilitate the user to go back to the top of the page without needing to scroll back all the way up.
 
 ![Form](./assets/readme-images/footer.png)
+
+## Beginners Guide Page
+    - The beginners guide page is linked to the button in the main section that redirects the user to another page containing a YouTube video with some examples of the main techniques that every beginner will find. 
+
+![Beginners Guide](./assets/readme-images/beginners-guide.png)
 
 # Tecnologies Used
 
