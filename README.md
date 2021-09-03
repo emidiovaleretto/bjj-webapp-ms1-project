@@ -172,11 +172,13 @@ The site's color palette was thought in the colors used in jiu-jitsu, with white
 
 # Deployment
 
-  - The site was deployed to GitHub pages. The steps to deploy are as follows:
-      - In the GitHub repository, navigate to the Settings tab
-      - From the source section drop-down menu, select the Master Branch
-      - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-      - The live link can be found here - <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank" rel="noopener">https://emidiovaleretto.github.io/bjj-webapp-ms1-project/</a>.
+I deployed the page on GitHub pages via the following procedure: -
+
+1. From the project's [repository](https://github.com/emidiovaleretto/bjj-webapp-ms1-project), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+5. The live link can be found here - <a href="https://emidiovaleretto.github.io/bjj-webapp-ms1-project/" target="_blank" rel="noopener">https://emidiovaleretto.github.io/bjj-webapp-ms1-project/</a>.
 
 # Performance and accessibility testing
 
