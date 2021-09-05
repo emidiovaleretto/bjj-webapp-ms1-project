@@ -25,10 +25,11 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
   - [Thank you page](#thank-you-page)
   - [Footer](#footer)
   - [Beginners Guide Page](#beginners-guide-page)
+- [Features Left to Implement](#features-left-to-implement)
 - [Tecnologies Used](#tecnologies-used)
   - [Languages Used](#languages-used)
   - [Frameworks, Liberies and other softwares used](#frameworks-liberies-and-other-softwares-used)
-- [Colours](#colours)
+- [Colours Palette](#colours-palette)
 - [Testing](#testing)
   - [HTML](#html)
   - [CSS](#css)
@@ -115,9 +116,12 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 ![Form](./assets/readme-images/footer.png)
 
 ## Beginners Guide Page
-    - The beginners guide page is linked to the button in the main section that redirects the user to another page containing a YouTube video with some examples of the main techniques that every beginner will find. 
+  - The beginners guide page is linked to the button in the main section that redirects the user to another page containing a YouTube video with some examples of the main techniques that every beginner will find. 
 
 ![Beginners Guide](./assets/readme-images/beginners-guide.png)
+
+# Features Left to Implement
+  - A student testimonial session.
 
 # Tecnologies Used
 
@@ -150,11 +154,11 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
      - W3C CSS Validator was used to validate the CSS code.
 
 
-# Colours
+# Colours Palette
 
-The site's color palette was thought in the colors used in jiu-jitsu, with white, blue, red and black as primary colors. In addition, other shades of blue and red were chosen to provide a contrast.
+The site's colors palette was thought in the colors used in jiu-jitsu, with white, blue, red and black as primary colors. In addition, other shades of blue and red were chosen to provide a contrast.
 
-![#ffffff](https://via.placeholder.com/25/ffffff/000000?text=+) `--white` ![#ff0000](https://via.placeholder.com/25/ff0000/000000?text=+) `--red` ![#8b0000](https://via.placeholder.com/25/8b0000/000000?text=+) `--darkred` ![#610303](https://via.placeholder.com/25/610303/000000?text=+) `--maroon`  ![#565656](https://via.placeholder.com/25/565656/000000?text=+) `--darkgray` ![#0E34A0](https://via.placeholder.com/25/0E34A0/000000?text=+) `--blue` ![#1a1f2d](https://via.placeholder.com/25/1a1f2d/000000?text=+) `--darkblue` ![#000000](https://via.placeholder.com/25/000000/000000?text=+) `--black`
+![#ffffff](https://via.placeholder.com/25/ffffff/000000?text=+) `#FFFFFF --white` ![#ff0000](https://via.placeholder.com/25/ff0000/000000?text=+) `#FF0000 --red` ![#8b0000](https://via.placeholder.com/25/8b0000/000000?text=+) `#8b0000 --darkred` ![#610303](https://via.placeholder.com/25/610303/000000?text=+) `#610303 --marron`  ![#565656](https://via.placeholder.com/25/565656/000000?text=+) `#565656 --darkgray` ![#0E34A0](https://via.placeholder.com/25/0E34A0/000000?text=+) `#0E34A0 --blue` ![#1a1f2d](https://via.placeholder.com/25/1a1f2d/000000?text=+) `#1a1f2d --darkblue` ![#000000](https://via.placeholder.com/25/000000/000000?text=+) `#000000 --black`
 
 ![Colours](./assets/readme-images/color-palette.png)
 
