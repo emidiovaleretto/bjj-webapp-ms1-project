@@ -611,14 +611,6 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
 }
 
 @media (max-width: 992px) {
-    #gallery {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-    }
-}
-
-@media (max-width: 832px) {
     #nav, #menu {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -654,7 +646,7 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
         cursor: pointer;
     }
     .responsive-menu-btn:checked~#menu {
-        height: 260px;
+        height: 90vh;
         display: block;
         margin-bottom: 1rem;
     }
@@ -664,16 +656,22 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
     #menu, li {
         width: 100%;
+        font-size: 2rem;
     }
     #menu>li {
         padding: 10px;
     }
-    .button {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
+    #menu li:first-child {
+        margin-top: 15%;
     }
+    #gallery {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (max-width: 832px) {
     #gallery {
         -webkit-column-count: 2;
         -moz-column-count: 2;
@@ -686,6 +684,12 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.98) 10%, rgba(0, 0, 0, 0)), url('../img/bjj-5.jpg');
         background-size: cover;
         background-position: center;
+    }
+    .button {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
 }
 
