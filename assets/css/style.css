@@ -646,7 +646,7 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
         cursor: pointer;
     }
     .responsive-menu-btn:checked~#menu {
-        height: 90vh;
+        height: 100vh;
         display: block;
         margin-bottom: 1rem;
     }
