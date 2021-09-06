@@ -656,9 +656,9 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
     #menu, li {
         width: 100%;
-        font-size: 2rem;
     }
     #menu>li {
+        font-size: 2rem;
         padding: 10px;
     }
     #menu li:first-child {
