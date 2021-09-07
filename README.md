@@ -11,6 +11,13 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 ## Table of Contents
 - [BJJ - Brazilian Jiu-Jitsu GYM](#bjj---brazilian-jiu-jitsu-gym)
   - [Table of Contents](#table-of-contents)
+- [UX](#ux)
+  - [Key project goals](#key-project-goals)
+  - [Target audience](#target-audience)
+  - [Strategy](#strategy)
+  - [User Research](#user-research)
+    - [New user are looking to:](#new-user-are-looking-to)
+    - [Frequent users are looking to:](#frequent-users-are-looking-to)
 - [Features](#features)
   - [Logo](#logo)
   - [Navigation Bar](#navigation-bar)
@@ -42,6 +49,37 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
   - [Our Classes images](#our-classes-images)
   - [Gallery images](#gallery-images)
 - [Acknowledgements](#acknowledgements)
+
+# UX
+
+## Key project goals
+
+  - The purpose of this project is to create a front-end application for a Brazilian Jiu-Jitsu Training Center in Dublin, Ireland. This web aplication needs to provide high quality information to their future students and be an easy to navigate through the sections.
+
+## Target audience
+
+  - My target audience is those people who are interested in learning more about the Gentle Art - as it is known the practice of Jiu-Jitsu - as well as those people who already practice the modality.
+
+## Strategy
+
+  - My strategy was to create a single page divided into sections where the user could navigate between them, without the need to open new pages. The section start with a very significant image and text "Brazilian jiu jitsu is more than just a sport. It’s more than a martial art. It’s a way to change your life." that draws the user's attention to wanting to find out more about that "change of life" and question themselves "in which way?". And then they scroll the page down and head deep dive into a new life experience.
+
+## User Research
+
+### New user are looking to:
+  1. As a new user, I want to see a presentable website, with a colour palette that matches the purpose of the business and accurate information about "What it is", "Where it is", "How to start", "Why I should learn about" and "How much".
+  2. As a new user, I want to see an easy navigation bar and that be self-describing and point to the right content. e.g.: About us should point to a content that speaks about the purpose of the business, or the company itself.
+  3. As a new user, I want to see the kind of classes they are offering.
+  4. As a new user, I want to see some different pictures of the jiu-jitsu classes and practice itself that might be helpful to imagine what it would be like in reality.
+  5. As a new user, I want to see the contact information such as the email address and contact number.
+  6. As a new user, I want to see the price of classes and if there is more than one package, that its price is self-descriptive, with information about what each package differs from the other, so that I can assess which one best fits on my need.
+  7. As a new user, I want to see a consistent layout with high-quality images that are not stretching or losing quality.
+
+### Frequent users are looking to:
+  1. As a frequent user, I want to see an up-to-date website with the latest information about the world of jiu-jitsu.
+  2. As a frequent user, I want to see a website that is constantly improving such as the layout, new pictures and new content.
+  3. As a frequent user, I want to see more promotions such as discounts and loyalty cards.
+  4. As a frequent user, I want to engage with new students in more ways.
 
 # Features
 
