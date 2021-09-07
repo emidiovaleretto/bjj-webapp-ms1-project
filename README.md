@@ -33,6 +33,8 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 - [Testing](#testing)
   - [HTML](#html)
   - [CSS](#css)
+- [Bugs](#bugs)
+  - [Solved Bugs](#solved-bugs)
 - [Deployment](#deployment)
 - [Performance and accessibility testing](#performance-and-accessibility-testing)
   - [What is considered as accessibility?](#what-is-considered-as-accessibility)
@@ -173,6 +175,70 @@ The site's colors palette was thought in the colors used in jiu-jitsu, with whit
   - No errors were returned when passing through the official <a href="http://https://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank" rel="noopener">(Jigsaw) CSS Validator</a>
 
     ![CSS Validator](./assets/readme-images/css-validator.png)
+
+  - I tested that this page works in different browsers, such as Chrome, Firefox, Safara, Edge and Opera.
+  - I confirm that this project is responsive, looks good and functions on all standard screen size using the devtools device toolbar.
+  - I confirm that the navigation, header and all others elements are all readeble and easy to understand.
+  - I have confirmed that the form works properly: requires entries in every field, accepting only an email in the email field and the submit button works correctly.
+
+# Bugs
+
+## Solved Bugs
+
+When I deployed my project to GitHub Pages I discovered that the responsive menu icon was not opening as expected in some devices. Firstly I was using a icon from Font Awesome. The icon was displayed but wasn't clickable on Iphones, for example. After testing some other options, I decided to change the way to place the icon in the layout. 
+- Before: 
+```
+<button id="responsive-menu-btn"><i class="fas fa-bars"></i></button>
+```
+  - After: 
+```
+<input id="responsive-menu-btn" class="responsive-menu-btn" type="checkbox" aria-label="Close menu" role="button"> 
+<label class="responsive-menu-label" for="responsive-menu-btn" title="close menu"></label>
+```
+  - In CSS: 
+    - I changed the CSS rules to display the responsive menu icon as shown below:
+```
+.responsive-menu-label::after {
+        content: '☰';
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        position: absolute;
+        font-size: 3rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3.5rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    .responsive-menu-btn:checked~#menu {
+        height: 100vh;
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .responsive-menu-btn:checked~.responsive-menu-label::after {
+        content: '×';
+        font-size: 5rem;
+    }
+```
+That way I got to solve the problem.
+
+  - After requesting some peer code review in the Slack community, some of them pointed out problems in the width of the coach's image, on smaller screens, as shown below: 
+
+<img src="./assets/readme-images/bug.png" alt="mobile screenshot" width="250" height="auto">
+
+  - So I modified the CSS rules through the media queries.
+
+```
+@media (max-width: 425px) {
+    .circle-container {
+        width: 260px;
+        height: 260px;
+    }
+```
+
+Fixed the problem.
 
 # Deployment
 
