@@ -46,6 +46,7 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 - [Performance and accessibility testing](#performance-and-accessibility-testing)
   - [What is considered as accessibility?](#what-is-considered-as-accessibility)
 - [Credits](#credits)
+  - [Main title](#main-title)
   - [Our Classes images](#our-classes-images)
   - [Gallery images](#gallery-images)
 - [Acknowledgements](#acknowledgements)
@@ -304,6 +305,10 @@ I deployed the page on GitHub pages via the following procedure: -
 ![Performance](./assets/readme-images/performance.png)
 
 # Credits
+
+## Main title
+
+The main title "Brazilian jiu jitsu is more than just a sport. It’s more than a martial art. It’s a way to change your life." was extracted from the <a href="https://mmaxfitness.co.uk/brazilian-jiu-jitsu/">MMAX academy</a> website.
 
 All images used in the construction of this project were extracted from sites with a license for use and their respective authors are mentioned below.
 
