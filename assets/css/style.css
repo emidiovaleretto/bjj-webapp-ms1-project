@@ -156,7 +156,8 @@ a:link, a:visited {
     font-size: 180%;
     color: var(--white);
     text-transform: uppercase;
-    padding: 100px 0;
+    position: relative;
+    top: 100px;
 }
 
 #main-title h3 {
@@ -336,11 +337,13 @@ a:link, a:visited {
     text-align: center;
     font-size: 140%;
     background: var(--white);
+    width: 100%;
     height: auto;
     max-height: 100%;
     border: 2px dotted var(--darkblue);
     border-radius: 10px;
-    margin-top: 30px;
+    position: relative;
+    top: 60px;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -593,6 +596,9 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     .white-divisor-background {
         background-repeat: repeat;
     }
+    #main-title {
+        font-size: 220%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -607,6 +613,9 @@ input[type="text"]:hover, input[type="email"]:hover, #select-field:hover {
     }
     .darkblue-section {
         min-height: 60vh;
+    }
+    .pricing {
+        top: 0;
     }
 }
 
