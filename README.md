@@ -1,4 +1,4 @@
-# BJJ - Brazilian Jiu-Jitsu GYM
+# BJJ - Brazilian Jiu-Jitsu Training Center
 
 BJJ - Brazilian Jiu-Jitsu is a website that helps people stay passionate about the Gentle Art - as it is known the practice of Jiu-Jistu - besides introduce this modality to new aspirates who want to know more about the pillars of Brazilian Jiu-Jitsu.  Based in Dublin, Ireland, we offer a friendly and cosy environment, to receive from beginners to more advanced practitioners. The site is targeted toward practisers and athletes who are looking for a way to socialise and keep themselves fit. BJJ will be useful for all people to find out exactly why they should choose practicing jiu-jistu.
 
@@ -9,7 +9,7 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 
 
 ## Table of Contents
-- [BJJ - Brazilian Jiu-Jitsu GYM](#bjj---brazilian-jiu-jitsu-gym)
+- [BJJ - Brazilian Jiu-Jitsu Training Center](#bjj---brazilian-jiu-jitsu-training-center)
   - [Table of Contents](#table-of-contents)
 - [UX](#ux)
   - [Key project goals](#key-project-goals)
@@ -54,7 +54,7 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 
 ## Key project goals
 
-  - The purpose of this project is to create a front-end application for a Brazilian Jiu-Jitsu Training Center in Dublin, Ireland. This web aplication needs to provide high quality information to their future students and be an easy to navigate through the sections.
+  - The purpose of this project is to create a front-end application for a Brazilian Jiu-Jitsu Training Center in Dublin, Ireland. This web aplication needs to provide high quality information to their future students and be easy to navigate through the sections.
 
 ## Target audience
 
@@ -62,7 +62,7 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 
 ## Strategy
 
-  - My strategy was to create a single page divided into sections where the user could navigate between them, without the need to open new pages. The section start with a very significant image and text "Brazilian jiu jitsu is more than just a sport. It’s more than a martial art. It’s a way to change your life." that draws the user's attention to wanting to find out more about that "change of life" and question themselves "in which way?". And then they scroll the page down and head deep dive into a new life experience.
+  - My strategy was to create a single page divided into sections where the user could navigate between them, without the need to open new pages. The section start with a very significant image and a text **"Brazilian jiu jitsu is more than just a sport. It’s more than a martial art. It’s a way to change your life."** that draws the user's attention to wanting to find out more about that "change of life" and question themselves "in which way?". And then they scroll the page down and head deep dive into a new life experience.
 
 ## User Research
 
