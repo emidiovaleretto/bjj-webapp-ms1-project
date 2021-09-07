@@ -160,6 +160,8 @@ The live link can be found <a href="https://emidiovaleretto.github.io/bjj-webapp
 
 ![Beginners Guide](./assets/readme-images/beginners-guide.png)
 
+  - <em>Source: </em><a href="https://www.youtube.com/watch?v=KWQAMLYvZnw"><b>[Youtube] - What Does a BJJ Beginner Class Look Like? How do you Start BJJ?</b></a>
+
 # Features Left to Implement
   - A student testimonial session.
 
